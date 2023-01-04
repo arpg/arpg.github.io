@@ -4,6 +4,21 @@
 #   venue: 
 #   pdf: 
 
+ - title: "A mixed reality supervision and telepresence interface for outdoor field robotics"
+   authors: "M. Walker, Z. Chen, M. Whitlock, D. Blair, D. A. Szafir, C. Heckman, D. Szafir"
+   year: 2021
+   venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+ 
+ - title: "Formalizing and guaranteeing human-robot interaction"
+   authors: "H. Kress-Gazit, K. Eder, G. Hoffman, H. Admoni, B. Argall, R. Ehlers, C. Heckman, N. Jansen, R. Knepper, J. Křetínský, S. Levy-Tzedek, J. Li, T. Murphey, L. Riek, D. Sadigh"
+   year: 2021
+   venue: "Communications of the ACM"
+ 
+ - title: "Human-Aware Reinforcement Learning for Fault Recovery Using Contextual Gaussian Processes"
+   authors: "S. McGuire, P. Michael Furlong, C. Heckman, S. Julier, N Ahmed"
+   year: 2021
+   venue: "Journal of Aerospace Information Systems"
+
  - title: "Radar-Inertial State Estimation and Mapping for Micro-Aerial Vehicles In Dense Fog"
    authors: "A. Kramer, S. Ahmad, C. Heckman"
    year: 2020
@@ -12,7 +27,7 @@
  - title: "Radar-Inertial Ego-Velocity Estimation for Visually Degraded Environments"
    authors: "A. Kramer, A. Santamaria-Navarro, A. Aghamohammadi, C. Heckman"
    year: 2020
-   venue: "International Conference on Robotics and Automation"
+   venue: "International Conference on Robotics and Automation (ICRA)"
    pdf: "/papers/Kramer_ICRA_2020.pdf"
 
  - title: "Better Together: Online Probabilistic Clique Change Detection in 3D Landmark-Based Maps"
