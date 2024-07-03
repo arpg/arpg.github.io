@@ -56,6 +56,23 @@
 
             <!-- Line -->
             <hr class="separating-line"{% if page.category != "research" and page.category != "design" %} style="margin-bottom: 40px;"{% endif %}>
+
+            <!-- News Update -->
+            {% if page.show_news_updates %}
+            <div style="text-align:left; font-size: 40px;">
+                <strong style="color:black;">News:</strong>
+            </div>
+            <ul style="font-size: 20px; list-style-type: disc;">
+                {% for i in (1..50) %}
+                    {% assign news_update_index = 'news_update_' | append: i %}
+                    {% if page[news_update_index] %}
+                        <li>{{ page[news_update_index] }}</li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            {% endif %}
+            
+            <!-- Vertical Space -->
             <br>
 
             {% if page.img %}

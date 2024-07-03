@@ -37,6 +37,9 @@ arxiv_link_text: "ArXiv"
 # bibtex_link: "https://google.com"
 # bibtex_link_color: "purple"
 # bibtex_link_text: "BiTex"
+
+show_news_updates: True
+news_update_1: "2024-06-30 SceneSense accepted to IROS 2024!"
 ---
 
 <!-- CSS for the cube (voxel) container below -->
