@@ -40,6 +40,7 @@ arxiv_link_text: "ArXiv"
 
 show_news_updates: True
 news_update_1: "2024-06-30 SceneSense accepted to IROS 2024!"
+news_update_2: "2024-9-18 Real World SceneSense Application and model updates on ARXIV: [link](https://arxiv.org/abs/2409.10681)"
 ---
 
 <!-- CSS for the cube (voxel) container below -->
