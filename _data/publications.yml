@@ -3,6 +3,10 @@
 #   year:
 #   venue: 
 #   pdf: 
+ - title: "Online Diffusion-Based 3D Occupancy Prediction at the Frontier with Probabilistic Map Reconciliation"
+   authors: "A. Reed, L. Achey, B. Crowe, B. Hayes, C. Heckman"
+   year: 2025
+   venue: "International Conference on Robotics and Automation (ICRA)"
 
  - title: "SceneSense: Diffusion Models for 3D Occupancy Synthesis from Partial Observation"
    authors: "A. Reed, B. Crowe, D. Albin, L. Achey, B. Hayes, C. Heckman"
