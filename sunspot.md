@@ -33,9 +33,9 @@ year = {2019}
 
 - [SUNRGBD Images](http://rgbd.cs.princeton.edu/) 
 - SUN-Spot Annotations
-    - [refs(boulder).p](https://drive.google.com/file/d/1uIGItTLm3idRWHqgG6AFqUrl0sSgiKbt/view?usp=sharing) - The referring expressions
-    - [instances.json](https://drive.google.com/file/d/1Ytt_3CY6QYclj0R0sQypowvhOk9Jpct5/view?usp=sharing) - The SUNRGBD annotations in COCO format
-    - [vocab.txt](https://drive.google.com/file/d/1hG9WxmJjZ_D9YNKfykC6RTqcI4ETijA6/view?usp=sharing) - The vocabulary
+    - [refs(boulder).p](https://zenodo.org/records/14693339/files/refs(boulder).p?download=1) - The referring expressions
+    - [instances.json](https://zenodo.org/records/14693339/files/instances.json?download=1) - The SUNRGBD annotations in COCO format
+    - [vocab.txt](https://zenodo.org/records/14693339/files/vocab.txt?download=1) - The vocabulary
 - [Code Repository](https://github.com/crmauceri/ReferringExpressions)
 
 ## Examples
