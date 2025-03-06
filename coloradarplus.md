@@ -56,6 +56,11 @@ news_update_1: "2024-12-25 Dataset visualization code now available."
 </div>
 
 ## Dataset
+
+<div style="text-align: left; margin-bottom: 20px;">
+  If you would like to download the ColoRadar+ Dataset or specific runs from environments, you can do so here: <a href="https://example.com" style="color:blue;">(CLICK HERE TO DOWNLOAD)</a>
+</div>
+
 <div style="text-align: justify;">
     <!-- <img src="/img/coloradarplus/radar_rig.png" alt="Photo example results" style="display: inline-block; margin-right: 20px;" height="300"> -->
     <img src="/img/coloradarplus/radar_rig.png" alt="Photo example results" style="float: left; margin-right: 10px;" height="250">
