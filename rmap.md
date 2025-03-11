@@ -10,14 +10,15 @@ author1: "Ajay N. Mopidevi"
 author2: "Kyle Harlow"
 author3: "Chris Heckman"
 
-# Links at bottom. Removing '<linkname>_link' below will remove from page.
-github_link: "https://github.com/arpg/RMap"
-github_link_color: "yellowgreen"
-github_link_text: "GitHub"
+# Links
+link_1_url: "https://github.com/arpg/RMap"
+link_1_color: "yellowgreen"
+link_1_text: "GitHub"
 
-arxiv_link: "https://arxiv.org/abs/2310.13188"
-arxiv_link_color: "blue"
-arxiv_link_text: "ArXiv"
+link_2_url: "https://arxiv.org/abs/2310.13188"
+link_2_color:  "blue"
+link_2_text: "ArXiv"
+
 
 # summary_video_link:
 # summary_video_link_color:

@@ -13,30 +13,14 @@ author4: "Lorin Achey"
 author5: "Bradley Hayes"
 author6: "Chris Heckman"
 
-# Links at bottom. Removing '<linkname>_link' below will remove from page.
-github_link: "https://github.com/arpg/SceneSense"
-github_link_color: "yellowgreen"
-github_link_text: "GitHub"
+# Links
+link_1_url: "https://github.com/arpg/SceneSense"
+link_1_color: "yellowgreen"
+link_1_text: "GitHub"
 
-arxiv_link: "https://arxiv.org/abs/2403.11985"
-arxiv_link_color: "blue"
-arxiv_link_text: "ArXiv"
-
-# summary_video_link:
-# summary_video_link_color:
-# summary_video_link_text: "Summary Video Link"
-
-# talk_link: "https://google.com"
-# talk_link_color: "red"
-# talk_link_text: "IROS Talk"
-
-# media_coverage_link:
-# media_coverage_link_color:
-# media_coverage_link_text: "Media Coverage"
-
-# bibtex_link: "https://google.com"
-# bibtex_link_color: "purple"
-# bibtex_link_text: "BiTex"
+link_2_url: "https://arxiv.org/abs/2403.11985"
+link_2_color:  "blue"
+link_2_text: "ArXiv"
 
 show_news_updates: True
 news_update_1: "2024-09-18 Real-world SceneSense applications and model updates on ARXIV: [https://arxiv.org/abs/2409.10681](https://arxiv.org/abs/2409.10681)"

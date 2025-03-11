@@ -15,17 +15,17 @@ author6: "Anna Zavei-Boroda"
 author7: "Christoffer Heckman"
 
 # Links at bottom. Removing '<linkname>_link' below will remove from page.
-github_link: "https://github.com/arpg/ColoRadarPlus"
-github_link_color: "yellowgreen"
-github_link_text: "GitHub"
+link_1_url: "https://github.com/arpg/ColoRadarPlus"
+link_1_color: "yellowgreen"
+link_1_text: "GitHub"
 
-arxiv_link: "https://github.com/arpg/ColoRadarPlus"
-arxiv_link_color: "blue"
-arxiv_link_text: "ArXiv"
+link_2_url: "https://github.com/arpg/ColoRadarPlus"
+link_2_color:  "blue"
+link_2_text: "ArXiv"
 
-# summary_video_link:
-# summary_video_link_color:
-# summary_video_link_text: "Summary Video Link"
+link_3_url: "https://github.com/arpg/ColoRadarPlus"
+link_3_color:  "red"
+link_3_text: "Download Dataset"
 
 # talk_link: "https://google.com"
 # talk_link_color: "red"
@@ -52,7 +52,7 @@ news_update_1: "2024-12-25 Dataset visualization code now available."
 ## Dataset
 
 <div style="text-align: left; margin-bottom: 20px;">
-  If you would like to download the ColoRadar+ Dataset or specific runs from environments, you can do so here: <a href="https://example.com" style="color:blue;">(DOWNLOAD)</a>
+  If you would like to download the ColoRadar+ Dataset or specific runs from environments, you can do so here: <a href="https://github.com/arpg/ColoRadarPlus" style="color:blue;">(DOWNLOAD)</a>
 </div>
 
 <div style="text-align: justify;">
