@@ -19,7 +19,7 @@ github_link: "https://github.com/arpg/ColoRadarPlus"
 github_link_color: "yellowgreen"
 github_link_text: "GitHub"
 
-arxiv_link: "https://arxiv.org/abs/2403.11985"
+arxiv_link: "https://github.com/arpg/ColoRadarPlus"
 arxiv_link_color: "blue"
 arxiv_link_text: "ArXiv"
 
@@ -45,14 +45,8 @@ news_update_1: "2024-12-25 Dataset visualization code now available."
 
 
 <div style="text-align: center;">
-    Millimeter-Wave (mmWave) Radar has become a compelling alternative sensor for odometry and mapping in visually-
-    degraded environments due to the longer-wavelength’s ability to bypass particles which interrupt visual and near-
-    visual sensors. However, the low resolutions, especially in angular dimensions, and sparse nature of many mmWave
-    radars make accurate odometry difficult. In order to promote continued research in this area, we present ColoRadar+.
-    Coloradar+ is an extension of the ColoRadar Dataset which includes improved ground truth odometry, and RGB-D
-    camera data not included in the original dataset. We also propose a data-driven radar-inertial odometry network, which
-    leverages a dense radar image front-end to compensate for some of the perceived drawbacks of mmWave radar. We
-    train and test this network on a new mmWave radar dataset, <b>ColoradarPlus</b>.
+    Millimeter-Wave (mmWave) Radar has become a compelling alternative sensor for odometry and mapping in visually degraded environments due to the longer-wavelength’s ability to bypass particles which interrupt visual and near-visual sensors. 
+    However, the low resolutions, especially in angular dimensions, and sparse nature of many mmWave radars make accurate odometry difficult. In order to promote continued research in this area, we present ColoRadar+. Coloradar+ is an extension of the ColoRadar Dataset which includes improved ground truth odometry, and RGB-D camera data not included in the original dataset. We also propose a data-driven radar-inertial odometry network, which leverages a dense radar image front-end to compensate for some of the perceived drawbacks of mmWave radar. We train and test this network on a new mmWave radar dataset, <b>ColoradarPlus</b>.
 </div>
 
 ## Dataset
@@ -99,9 +93,9 @@ We create a fusion architecture, DeepRIO, similar to Chen et al. (2019); Lu et a
 ```bibtex
 @article{Harlow2024ARXIV, 
    title   = {ColoRadar+: An extension of the dense millimeter-wave radar dataset ColoRadar}, 
-   author  = {Kyle Harlow, Doncey Albin, Miles Mena}, 
+   author  = {Kyle Harlow, Doncey Albin, Kristen Such, Miles Mena, Dusty Woods, Anna Zavei-Boroda, Christoffer Heckman}, 
    journal = {arXiv preprint arXiv:####.#####},
-   year    = {2024}, 
+   year    = {2025}, 
 }
 ```
 
