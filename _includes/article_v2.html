@@ -26,33 +26,37 @@
                     <div style="display: inline-block; width: 100%;"><h5 style="font-style: italic;">{{ page.university_name }}</h5></div>
                 </div>
             {% endif %}
-
-            <!-- links to github and other on bottom -->
+            
+            <!-- links to github, ArXiv, Talk, etc... -->
             <div style="text-align: center; background-color: white; width: 10w; margin-bottom: 20px;">
-                {% if page.github_link %}
-                    <div style="display: inline-block; font-size: larger;"><a href="{{ page.github_link }}" style="color: {{ page.github_link_color }};">{{ page.github_link_text }}</a></div>
-                {% endif %}
-                {% if page.arxiv_link %}
-                    <div style="display: inline-block; font-size: larger;"><strong>|</strong></div>
-                    <div style="display: inline-block; font-size: larger;"><a href="{{ page.arxiv_link }}" style="color: {{ page.arxiv_link_color }};">{{ page.arxiv_link_text }}</a></div>
-                {% endif %}
-                {% if page.summary_video_link %}
-                    <div style="display: inline-block; font-size: larger;"><a href="{{ page.summary_video_link }}" style="color: {{ page.summary_video_link_color }};">{{ page.summary_video_link_text }}</a></div>
-                    <div style="display: inline-block; font-size: larger;"><strong>|</strong></div>
-                {% endif %}
-                {% if page.talk_link %}
-                    <div style="display: inline-block; font-size: larger;"><a href="{{ page.talk_link }}" style="color: {{ page.talk_link_color }};">{{ page.talk_link_text }}</a></div>
-                    <div style="display: inline-block; font-size: larger;"><strong>|</strong></div>
-                {% endif %}
-                {% if page.media_coverage_link %}
-                    <div style="display: inline-block; font-size: larger;"><a href="{{ page.media_coverage_link }}" style="color: {{ page.media_coverage_link_color }};">{{ page.media_coverage_link_text }}</a></div>
-                    <div style="display: inline-block; font-size: larger;"><strong>|</strong></div>
-                {% endif %}
-                {% if page.bibtex_link %}
-                    <div style="display: inline-block; font-size: larger;"><a href="{{ page.bibtex_link }}" style="color: {{ page.bibtex_link_color }};">{{ page.bibtex_link_text }}</a></div>
-                {% endif %}
-            </div>
-
+                {% assign links = "" | split: "," %} 
+            
+                {% for i in (1..10) %}
+                    {% assign url_key = "link_" | append: i | append: "_url" %}
+                    {% assign color_key = "link_" | append: i | append: "_color" %}
+                    {% assign text_key = "link_" | append: i | append: "_text" %}
+            
+                    {% if page[url_key] %}
+                        {% assign link_item = page[url_key] | append: "||" | append: page[color_key] | append: "||" | append: page[text_key] %}
+                        {% assign links = links | push: link_item %}
+                    {% endif %}
+                {% endfor %}
+            
+                {% for link in links %}
+                    {% assign parts = link | split: "||" %}
+                    {% assign link_url = parts[0] %}
+                    {% assign link_color = parts[1] | default: "black" %}
+                    {% assign link_text = parts[2] | default: "Link" %}
+            
+                    {% if forloop.index > 1 %}
+                        <div style="display: inline-block; font-size: larger;"><strong>|</strong></div>
+                    {% endif %}
+            
+                    <div style="display: inline-block; font-size: larger;">
+                        <a href="{{ link_url }}" style="color: {{ link_color }};">{{ link_text }}</a>
+                    </div>
+                {% endfor %}
+            </div>          
 
             <!-- Line -->
             <hr class="separating-line"{% if page.category != "research" and page.category != "design" %} style="margin-bottom: 40px;"{% endif %}>
@@ -71,6 +75,7 @@
                 {% endfor %}
             </ul>
             {% endif %} -->
+
             <!-- News Update -->
             {% if page.show_news_updates %}
             <div style="text-align:left; font-size: 40px;">
