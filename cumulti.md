@@ -261,7 +261,9 @@ news_update_1: "2024-12-25 Dataset visualization code now available."
   </div>
 
   <p style="text-align: justify; flex: 1;">
-      We collected the CU-Multi Dataset in Boulder, Colorado at the CU Boulder campus. The CU-Multi dataset was collected using the AgileX Hunter SE platform modified with a custom-designed electronics housing (see Figure 2). Inside the housing, the system includes an Intel NUC i7 with 16 GB of RAM, a power distribution board, an Ouster interface module, and a 217 Wh battery. Externally, a mounting plate on the rear of the Hunter SE accommodates two u-blox ANN-MB-00 GNSS antennas, while a front-mounted plate holds a 64-beam Ouster LiDAR sensor, a RealSense D455 RGB-D camera, a Lord MicroStrain G7 IMU, and a Lord RTK cellular modem with an external antenna.
+      CU-Multi was collected in two areas on the CU campus. The first environment covers the Main Campus — a dense academic setting with structured paths, buildings, and pedestrian areas — spanning approximately 7.4 kilometers of traversed trajectory. The second environment, known as Kittredge Loop, is a more open and varied outdoor region south of the main campus. This area features less constrained terrain, allowing for broader exploration and diverse sensor viewpoints, and contributes an additional 9.3 kilometers of trajectory data.
+
+      Each environment includes four robot runs with deliberate trajectory overlap, enabling evaluation of multi-robot SLAM methods under varying levels of observational redundancy. All runs are synchronized to begin at a shared rendezvous point, and end within 4 meters of one another, supporting fine-grained inter-robot data association tasks.
   </p>
 </div>
       
@@ -354,11 +356,11 @@ news_update_1: "2024-12-25 Dataset visualization code now available."
 ## Citation
 
 ```bibtex
-@article{Harlow2024ARXIV, 
-   title   = {ColoRadar+: An extension of the dense millimeter-wave radar dataset ColoRadar}, 
-   author  = {Kyle Harlow, Doncey Albin, Kristen Such, Miles Mena, Dusty Woods, Anna Zavei-Boroda, Christoffer Heckman}, 
-   journal = {arXiv preprint arXiv:####.#####},
-   year    = {2025}, 
+@inproceedings{albin2025cumulti,
+  title={CU-Multi: A Dataset for Multi-Robot Data Association},
+  author={Albin, Doncey and Mena, Miles and Thomas, Annika and Biggie, Harel and Sun, Xuefei and Woods, Dusty and McGuire, Steve and Heckman, Christoffer},
+  booktitle={arXiv preprint arXiv:####.#####},
+  year={2025}
 }
 ``` -->
 
