@@ -261,80 +261,89 @@ news_update_1: "2024-12-25 Dataset visualization code now available."
   </div>
 
   <p style="text-align: justify; flex: 1;">
-      CU-Multi was collected in two areas on the CU campus. The first environment covers the Main Campus — a dense academic setting with structured paths, buildings, and pedestrian areas — spanning approximately 7.4 kilometers of traversed trajectory. The second environment, known as Kittredge Loop, is a more open and varied outdoor region south of the main campus. This area features less constrained terrain, allowing for broader exploration and diverse sensor viewpoints, and contributes an additional 9.3 kilometers of trajectory data.
+      CU-Multi was collected in two areas on the CU campus. The first environment covers CU's Main Campus (main_campus), which is a dense academic setting with structured paths, buildings, and pedestrian areas. The total trajectory length for all robots on the Main Campus span approximately 7.4 kilometers (see below for individual robot trajectory lengths). The second environment, Kittredge Loop (kittredge_loop), is a more open and varied outdoor region south of the main campus. This area features less constrained terrain, dynamic objects, many parked vehicles, and contributes an additional 9.3 kilometers of trajectory data.
 
       Each environment includes four robot runs with deliberate trajectory overlap, enabling evaluation of multi-robot SLAM methods under varying levels of observational redundancy. All runs are synchronized to begin at a shared rendezvous point, and end within 4 meters of one another, supporting fine-grained inter-robot data association tasks.
   </p>
 </div>
-      
+
+
 ### Main Campus Environment (*main_campus*)
+
+<div style="display: flex; background-color:rgba(255, 255, 255, 0.76); margin-bottom: 20px;">
+  <!-- <div style="display: flex; flex-direction: column; align-items: center; margin-left: 15px; margin-right: 15px;">
+      <img src="/img/cumulti/main_image.png" alt="" width="300">
+  </div> -->
+
+  <div style="display: flex; justify-content: center;">
+    <div>
+      <table style="border-collapse: collapse; border: 2px solid black;">
+        <tr>
+          <th style="border: 1px solid black; padding: 8px;">Environment</th>
+          <th style="border: 1px solid black; padding: 8px;">Robot ID</th>
+          <th style="border: 1px solid black; padding: 8px;">Total Path Length</th>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black; padding: 8px;" rowspan="4">Main Campus</td>
+          <td style="border: 1px solid black; padding: 8px;">robot1</td>
+          <td style="border: 1px solid black; padding: 8px;">1295.96 m</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black; padding: 8px;">robot2</td>
+          <td style="border: 1px solid black; padding: 8px;">1360.43 m</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black; padding: 8px;">robot3</td>
+          <td style="border: 1px solid black; padding: 8px;">1816.76 m</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black; padding: 8px;">robot4</td>
+          <td style="border: 1px solid black; padding: 8px;">2971.38 m</td>
+        </tr>
+      </table>
+      <!-- <p style="text-align: center;"><strong>Table 2.</strong> <em>Table of individual trajectory lengths for Main Campus and Kittredge Loop environments.</em></p> -->
+    </div>
+  </div>
+</div>
 
 ### Kittredge Loop Environment (*kittredge_loop*)
 
-<!-- <div style="display: flex; justify-content: center;">
-  <div>
-    <table style="border-collapse: collapse; border: 2px solid black;">
-      <tr>
-        <th style="border: 1px solid black; padding: 8px;">Environment</th>
-        <th style="border: 1px solid black; padding: 8px;">Robot ID</th>
-        <th style="border: 1px solid black; padding: 8px;">Total Path Length</th>
-        <th style="border: 1px solid black; padding: 8px;"># Intra-robot loop closures</th>
-        <th style="border: 1px solid black; padding: 8px;"># Inter-robot loop closures</th>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black; padding: 8px;" rowspan="4">Kittredge Loop</td>
-        <td style="border: 1px solid black; padding: 8px;">robot1</td>
-        <td style="border: 1px solid black; padding: 8px;">1136.41 m</td>
-        <td style="border: 1px solid black; padding: 8px;">-</td>
-        <td style="border: 1px solid black; padding: 8px;">-</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black; padding: 8px;">robot2</td>
-        <td style="border: 1px solid black; padding: 8px;">1373.37 m</td>
-        <td style="border: 1px solid black; padding: 8px;">-</td>
-        <td style="border: 1px solid black; padding: 8px;">-</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black; padding: 8px;">robot3</td>
-        <td style="border: 1px solid black; padding: 8px;">2792.06 m</td>
-        <td style="border: 1px solid black; padding: 8px;">-</td>
-        <td style="border: 1px solid black; padding: 8px;">-</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black; padding: 8px;">robot4</td>
-        <td style="border: 1px solid black; padding: 8px;">4005.75 m</td>
-        <td style="border: 1px solid black; padding: 8px;">-</td>
-        <td style="border: 1px solid black; padding: 8px;">-</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black; padding: 8px;" rowspan="4">Main Campus</td>
-        <td style="border: 1px solid black; padding: 8px;">robot1</td>
-        <td style="border: 1px solid black; padding: 8px;">1295.96 m</td>
-        <td style="border: 1px solid black; padding: 8px;">-</td>
-        <td style="border: 1px solid black; padding: 8px;">-</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black; padding: 8px;">robot2</td>
-        <td style="border: 1px solid black; padding: 8px;">1360.43 m</td>
-        <td style="border: 1px solid black; padding: 8px;">-</td>
-        <td style="border: 1px solid black; padding: 8px;">-</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black; padding: 8px;">robot3</td>
-        <td style="border: 1px solid black; padding: 8px;">1816.76 m</td>
-        <td style="border: 1px solid black; padding: 8px;">-</td>
-        <td style="border: 1px solid black; padding: 8px;">-</td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black; padding: 8px;">robot4</td>
-        <td style="border: 1px solid black; padding: 8px;">2971.38 m</td>
-        <td style="border: 1px solid black; padding: 8px;">-</td>
-        <td style="border: 1px solid black; padding: 8px;">-</td>
-      </tr>
-    </table>
-    <p style="text-align: center;"><strong>Table 1.</strong> <em>Table of intra-robot loop closures in different environments</em></p>
+<div style="display: flex; background-color:rgba(255, 255, 255, 0.76); margin-bottom: 20px;">
+  <!-- <div style="display: flex; flex-direction: column; align-items: center; margin-left: 15px; margin-right: 15px;">
+      <img src="/img/cumulti/main_image.png" alt="" width="300">
+  </div> -->
+
+  <div style="display: flex; justify-content: center;">
+    <div>
+      <table style="border-collapse: collapse; border: 2px solid black;">
+        <tr>
+          <th style="border: 1px solid black; padding: 8px;">Environment</th>
+          <th style="border: 1px solid black; padding: 8px;">Robot ID</th>
+          <th style="border: 1px solid black; padding: 8px;">Total Path Length</th>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black; padding: 8px;" rowspan="4">Kittredge Loop</td>
+          <td style="border: 1px solid black; padding: 8px;">robot1</td>
+          <td style="border: 1px solid black; padding: 8px;">1136.41 m</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black; padding: 8px;">robot2</td>
+          <td style="border: 1px solid black; padding: 8px;">1373.37 m</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black; padding: 8px;">robot3</td>
+          <td style="border: 1px solid black; padding: 8px;">2792.06 m</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid black; padding: 8px;">robot4</td>
+          <td style="border: 1px solid black; padding: 8px;">4005.75 m</td>
+        </tr>
+      </table>
+      <!-- <p style="text-align: center;"><strong>Table 2.</strong> <em>Table of individual trajectory lengths for Main Campus and Kittredge Loop environments.</em></p> -->
+    </div>
   </div>
-</div> -->
+</div>
+
 
 <!-- <div style="text-align: center; margin-top: 20px;">
     <img src="/img/cumulti/main_image.png" alt="" style="display: inline-block; margin: 0 10px;" height="600">
