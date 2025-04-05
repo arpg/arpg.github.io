@@ -166,7 +166,7 @@ news_update_1: "2024-12-25 Dataset visualization code now available."
     scatterImagesOnSides('/img/cumulti/huntie_bev.png', 4, 60);
 </script>
 
-<div style="text-align: justify; background-color:rgb(225, 225, 225); padding: 5px; border-radius: 5px;">
+<div style="text-align: justify; background-color:rgb(225, 225, 225, 0.90); padding: 5px; border-radius: 5px;">
   <div style="text-align:center; font-size: 36px;">
     <strong>Abstract</strong>
   </div>
@@ -255,7 +255,7 @@ news_update_1: "2024-12-25 Dataset visualization code now available."
 
 ## Environments
 
-<div style="display: flex; background-color:rgba(255, 255, 255, 0.76); margin-bottom: 20px;">
+<div style="display: flex; background-color:rgba(255, 255, 255, 0.90); margin-bottom: 20px;">
   <div style="display: flex; flex-direction: column; align-items: center; margin-left: 15px; margin-right: 15px;">
       <img src="/img/cumulti/main_image.png" alt="" width="300">
   </div>
@@ -270,12 +270,11 @@ news_update_1: "2024-12-25 Dataset visualization code now available."
 
 ### Main Campus Environment (*main_campus*)
 
-<div style="display: flex; background-color:rgba(255, 255, 255, 0.76); margin-bottom: 20px;">
-  <!-- <div style="display: flex; flex-direction: column; align-items: center; margin-left: 15px; margin-right: 15px;">
-      <img src="/img/cumulti/main_image.png" alt="" width="300">
-  </div> -->
+<div style="display: flex; flex-direction: column; align-items: center; margin-left: 15px; margin-right: 15px; background-color:rgba(255, 255, 255, 0.90);">
+    <img src="/img/cumulti/main_campus_all_bots.png" alt="" width="1000">
+</div>
 
-  <div style="display: flex; justify-content: center;">
+<div style="display: flex; justify-content: center; background-color:rgba(255, 255, 255, 0.90);">
     <div>
       <table style="border-collapse: collapse; border: 2px solid black;">
         <tr>
@@ -303,46 +302,50 @@ news_update_1: "2024-12-25 Dataset visualization code now available."
       </table>
       <!-- <p style="text-align: center;"><strong>Table 2.</strong> <em>Table of individual trajectory lengths for Main Campus and Kittredge Loop environments.</em></p> -->
     </div>
-  </div>
 </div>
 
 ### Kittredge Loop Environment (*kittredge_loop*)
 
-<div style="display: flex; background-color:rgba(255, 255, 255, 0.76); margin-bottom: 20px;">
-  <!-- <div style="display: flex; flex-direction: column; align-items: center; margin-left: 15px; margin-right: 15px;">
-      <img src="/img/cumulti/main_image.png" alt="" width="300">
-  </div> -->
+<div style="display: flex; flex-direction: column; align-items: center; margin-left: 15px; margin-right: 15px; background-color:rgba(255, 255, 255, 0.90);">
+    <img src="/img/cumulti/kittredge_loop_all_bots.png" alt="" width="1000">
+</div>
 
-  <div style="display: flex; justify-content: center;">
-    <div>
-      <table style="border-collapse: collapse; border: 2px solid black;">
-        <tr>
-          <th style="border: 1px solid black; padding: 8px;">Environment</th>
-          <th style="border: 1px solid black; padding: 8px;">Robot ID</th>
-          <th style="border: 1px solid black; padding: 8px;">Total Path Length</th>
-        </tr>
-        <tr>
-          <td style="border: 1px solid black; padding: 8px;" rowspan="4">Kittredge Loop</td>
-          <td style="border: 1px solid black; padding: 8px;">robot1</td>
-          <td style="border: 1px solid black; padding: 8px;">1136.41 m</td>
-        </tr>
-        <tr>
-          <td style="border: 1px solid black; padding: 8px;">robot2</td>
-          <td style="border: 1px solid black; padding: 8px;">1373.37 m</td>
-        </tr>
-        <tr>
-          <td style="border: 1px solid black; padding: 8px;">robot3</td>
-          <td style="border: 1px solid black; padding: 8px;">2792.06 m</td>
-        </tr>
-        <tr>
-          <td style="border: 1px solid black; padding: 8px;">robot4</td>
-          <td style="border: 1px solid black; padding: 8px;">4005.75 m</td>
-        </tr>
-      </table>
-      <!-- <p style="text-align: center;"><strong>Table 2.</strong> <em>Table of individual trajectory lengths for Main Campus and Kittredge Loop environments.</em></p> -->
-    </div>
+<div style="display: flex; justify-content: center; background-color:rgba(255, 255, 255, 0.90);">
+  <div>
+    <table style="border-collapse: collapse; border: 2px solid black;">
+      <tr>
+        <th style="border: 1px solid black; padding: 8px;">Environment</th>
+        <th style="border: 1px solid black; padding: 8px;">Robot ID</th>
+        <th style="border: 1px solid black; padding: 8px;">Total Path Length</th>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px;" rowspan="4">Kittredge Loop</td>
+        <td style="border: 1px solid black; padding: 8px;">robot1</td>
+        <td style="border: 1px solid black; padding: 8px;">1136.41 m</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px;">robot2</td>
+        <td style="border: 1px solid black; padding: 8px;">1373.37 m</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px;">robot3</td>
+        <td style="border: 1px solid black; padding: 8px;">2792.06 m</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px;">robot4</td>
+        <td style="border: 1px solid black; padding: 8px;">4005.75 m</td>
+      </tr>
+    </table>
+    <!-- <p style="text-align: center;"><strong>Table 2.</strong> <em>Table of individual trajectory lengths for Main Campus and Kittredge Loop environments.</em></p> -->
   </div>
 </div>
+
+<!-- <div style="display: flex; background-color:rgba(255, 255, 255, 0.76); margin-bottom: 20px;">
+  <div style="display: flex; flex-direction: column; align-items: center; margin-left: 15px; margin-right: 15px;">
+      <img src="/img/cumulti/kittredge_loop_all_bots.png" alt="" width="800">
+  </div>
+  </div>
+</div> -->
 
 
 <!-- <div style="text-align: center; margin-top: 20px;">
