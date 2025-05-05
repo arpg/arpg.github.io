@@ -27,7 +27,7 @@ link_3_color:  "red"
 link_3_text: "ArXiv: SceneSense"
 
 show_news_updates: True
-news_update_1: "2025-05-01 Our paper for applying SceneSense in the real world has been accepted to ICRA 2025! [arxiv link](https://arxiv.org/abs/2409.10681)
+news_update_1: "2025-05-01 Our paper for applying SceneSense in the real world has been accepted to ICRA 2025! [arxiv link](https://arxiv.org/abs/2409.10681)"
 news_update_2: "2024-09-18 Real-world SceneSense applications and model updates on ARXIV: [https://arxiv.org/abs/2409.10681](https://arxiv.org/abs/2409.10681)"
 news_update_3: "2024-06-30 SceneSense accepted to IROS 2024!"
 ---
