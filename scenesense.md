@@ -142,7 +142,7 @@ news_update_3: "2024-06-30 SceneSense accepted to IROS 2024!"
     }
 </script>
 
-## Presentation Video
+## ICRA 2025 Video
 
 <div style="text-align:center;">
   <video width="80%" controls>
@@ -176,7 +176,7 @@ Our occupancy in-painting method ensures that observed space remains intact whil
 
 <br>
 
-## Presentation Video
+## IROS 2024 Video
 
 <div style="text-align:center;">
   <video width="80%" controls>
