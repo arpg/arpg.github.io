@@ -20,11 +20,16 @@ link_1_text: "GitHub"
 
 link_2_url: "https://arxiv.org/abs/2403.11985"
 link_2_color:  "blue"
-link_2_text: "ArXiv"
+link_2_text: "ArXiv: SceneSense on Robot"
+
+link_3_url: "https://arxiv.org/abs/2403.11985"
+link_3_color:  "red"
+link_3_text: "ArXiv: SceneSense"
 
 show_news_updates: True
-news_update_1: "2024-09-18 Real-world SceneSense applications and model updates on ARXIV: [https://arxiv.org/abs/2409.10681](https://arxiv.org/abs/2409.10681)"
-news_update_2: "2024-06-30 SceneSense accepted to IROS 2024!"
+news_update_1: "2025-05-01 Our paper for applying SceneSense in the real world has been accepted to ICRA 2025! [arxiv link](https://arxiv.org/abs/2409.10681)
+news_update_2: "2024-09-18 Real-world SceneSense applications and model updates on ARXIV: [https://arxiv.org/abs/2409.10681](https://arxiv.org/abs/2409.10681)"
+news_update_3: "2024-06-30 SceneSense accepted to IROS 2024!"
 ---
 
 <!-- CSS for the cube (voxel) container below -->
@@ -137,6 +142,17 @@ news_update_2: "2024-06-30 SceneSense accepted to IROS 2024!"
     }
 </script>
 
+## Presentation Video
+
+<div style="text-align:center;">
+  <video width="80%" controls>
+    <source src="/video/scenesense/icra_2025_ss.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<br>
+
 <div style="text-align: center;">
     We present <b>SceneSense</b>, a novel generative 3D diffusion model for synthesizing 3D occupancy information from observations. SceneSense uses a running occupancy map and a single RGB-D camera to generate predicted geometry around the platform, even when the geometry is occluded or out of view. The architecture of our framework ensures that the generative model never overwrites observed free or occupied space, making SceneSense a low risk addition to any robotic planning stack.
 </div>
@@ -174,13 +190,19 @@ Our occupancy in-painting method ensures that observed space remains intact whil
 ## Citation
 
 ```bib
-@misc{reed2024scenesense,
-      title={SceneSense: Diffusion Models for 3D Occupancy Synthesis from Partial Observation}, 
-      author={Alec Reed and Brendan Crowe and Doncey Albin and Lorin Achey and Bradley Hayes and Christoffer Heckman},
-      year={2024},
-      eprint={2403.11985},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO}
+@inproceedings{reed2024scenesense,
+  title={SceneSense: Diffusion Models for 3D Occupancy Synthesis from Partial Observation},
+  author={Reed, Alec and Crowe, Brendan and Albin, Doncey and Achey, Lorin and Hayes, Bradley and Heckman, Christoffer},
+  booktitle={2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={7383--7390},
+  year={2024},
+  organization={IEEE}
+}
+@article{reed2024online,
+  title={Online Diffusion-Based 3D Occupancy Prediction at the Frontier with Probabilistic Map Reconciliation},
+  author={Reed, Alec and Achey, Lorin and Crowe, Brendan and Hayes, Bradley and Heckman, Christoffer},
+  journal={arXiv preprint arXiv:2409.10681},
+  year={2024}
 }
 ```
 
