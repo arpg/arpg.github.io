@@ -17,30 +17,6 @@
     email: Christoffer.Heckman@colorado.edu
     pic: Heckman_Christoffer.jpg
 
-  - name: Kyle Harlow
-    role: phd
-    url: https://alphakyl.github.io/
-    office: ECES 111
-    phone:
-    email: kyle.harlow@colorado.edu
-    pic: Harlow_Kyle.jpg
-    
-  - name: Harel Biggie
-    role: phd
-    url: https://harelbiggie.com
-    office: ECES 111
-    phone:
-    email: harel.biggie@colorado.edu
-    pic: Biggie_Harel.jpg
-    
-  - name: Patrick Cooper
-    role: phd
-    url: https://github.com/PatrickAllenCooper
-    office: ECES 111
-    phone: 850-307-8427
-    email: patrick.cooper@colorado.edu
-    pic: Patrick_Cooper.jpg
-
   - name: Kristen Such
     role: phd
     url:
@@ -56,14 +32,6 @@
     email: Xuefei.Sun@colorado.edu
     url: 
     pic: Xuefei_Sun.jpg
-
-  - name: Alec Reed
-    role: phd
-    office: ECES 111
-    phone: 
-    email: alre5639@colorado.edu
-    url: https://alre5639.github.io/
-    pic: Alec_Reed.jpeg
     
   - name: Doncey Albin
     role: phd
@@ -105,6 +73,21 @@
     office: ECES 111
     email: dewo3276@colorado.edu
     pic: Dusty_Woods.jpg
+
+  - name: Alec Reed
+    doctor: true
+    role: alumni
+    now: a Software Engineer at Overland AI
+
+  - name: Harel Biggie
+    doctor: true
+    role: alumni
+    now: a Post-Doc at the CSAIL lab at MIT
+  
+  - name: Kyle Harlow
+    doctor: true
+    role: alumni
+    now: A Computer Scientist at NRL
 
   - name: Steve McGuire
     doctor: true
