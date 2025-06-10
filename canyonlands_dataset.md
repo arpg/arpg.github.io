@@ -19,7 +19,7 @@ link_1_text: "GitHub"
 # link_2_color:  "blue"
 # link_2_text: "ArXiv"
 
-link_3_url: "https://drive.google.com/drive/u/3/folders/1W5xcQVJETsYlKwovsj7DfAhi3iAook8n"
+link_3_url: "https://drive.google.com/drive/folders/1W5xcQVJETsYlKwovsj7DfAhi3iAook8n?usp=sharing"
 link_3_color:  "red"
 link_3_text: "Download Dataset"
 
