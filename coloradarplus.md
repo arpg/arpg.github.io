@@ -15,7 +15,7 @@ author6: "Anna Zavei-Boroda"
 author7: "Christoffer Heckman"
 
 # Links at bottom. Removing '<linkname>_link' below will remove from page.
-link_1_url: "https://github.com/arpg/ColoRadarPlus"
+link_1_url: "https://github.com/arpg/coloradar-library"
 link_1_color: "yellowgreen"
 link_1_text: "GitHub"
 
