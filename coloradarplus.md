@@ -52,7 +52,7 @@ news_update_1: "2024-12-25 Dataset visualization code now available."
 ## Dataset
 
 <div style="text-align: left; margin-bottom: 20px;">
-  If you would like to download the ColoRadar+ Dataset or specific runs from environments, you can do so here: <a href="https://github.com/arpg/ColoRadarPlus" style="color:blue;">(DOWNLOAD)</a>
+  If you would like to download the ColoRadar+ Dataset or specific runs from environments, you can do so here: <a href="https://app.globus.org/file-manager?origin_id=986f22f1-394e-4dc8-b7c5-77eb7eceb3d4" style="color:blue;">(DOWNLOAD)</a>
 </div>
 
 <div style="text-align: justify;">
