@@ -23,7 +23,7 @@ link_2_url: "https://github.com/arpg/ColoRadarPlus"
 link_2_color:  "blue"
 link_2_text: "ArXiv"
 
-link_3_url: "https://github.com/arpg/ColoRadarPlus"
+link_3_url: "https://app.globus.org/file-manager?origin_id=986f22f1-394e-4dc8-b7c5-77eb7eceb3d4"
 link_3_color:  "red"
 link_3_text: "Download Dataset"
 
