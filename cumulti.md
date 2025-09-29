@@ -13,7 +13,7 @@ author4: "Annika Thomas"
 author5: "Harel Biggie"
 author6: "Xuefei Sun"
 author7: "Dusty Woods"
-author8: "Steve McGuire"i
+author8: "Steve McGuire"
 author9: " Jonathan P. How"
 author10: "Christoffer Heckman"
 
