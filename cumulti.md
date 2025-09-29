@@ -24,7 +24,7 @@ link_1_text: "GitHub"
 # link_2_color:  "blue"
 # link_2_text: "ArXiv"
 
-link_3_url: "https://drive.google.com/drive/u/1/folders/1lrhCDy2flNDyyPkKeTmA8tNgFj4JxSwi"
+link_3_url: "https://app.globus.org/file-manager?origin_id=ae3a873e-d159-4e7b-8a57-9be2699eea52&origin_path=%2F"
 link_3_color:  "red"
 link_3_text: "Download Dataset"
 
