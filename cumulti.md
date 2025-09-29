@@ -7,13 +7,15 @@ title_follow: "A Dataset for Multi-Robot Data Association"
 # university_name: "University of Colorado - Boulder" # You can comment this out if you dont like it.
 
 author1: "Doncey Albin"
-author2: "Miles Mena"
-author3: "Annika Thomas"
-author4: "Harel Biggie"
-author5: "Xuefei Sun"
-author6: "Dusty Woods"
-author7: "Steve McGuire"
-author8: "Christoffer Heckman"
+author2: "Daniel McGann"
+author3: "Miles Mena"
+author4: "Annika Thomas"
+author5: "Harel Biggie"
+author6: "Xuefei Sun"
+author7: "Dusty Woods"
+author8: "Steve McGuire"i
+author9: " Jonathan P. How"
+author10: "Christoffer Heckman"
 
 # Links at bottom. Removing '<linkname>_link' below will remove from page.
 link_1_url: "https://github.com/arpg/CU-Multi"
