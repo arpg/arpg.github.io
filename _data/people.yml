@@ -17,14 +17,6 @@
     email: Christoffer.Heckman@colorado.edu
     pic: Heckman_Christoffer.jpg
 
-  - name: Kristen Such
-    role: phd
-    url:
-    office: ECES 111
-    phone:
-    email:
-    pic: such_kristen.jpg
-
   - name: Xuefei Sun
     role: phd
     office: ECES 111
@@ -60,26 +52,33 @@
     url: https://lorinachey.github.io/
     pic: Lorin_Achey.jpg
 
-  - name: Miles Mena
-    role: phd
-    office: ECES 111
-    phone:
-    email: miles.mena@colorado.edu
-    url: http://milesmena.com
-    pic: Miles_Mena.jpg
-    
-  - name: Dusty Woods
-    role: manager
-    office: ECES 111
-    email: dewo3276@colorado.edu
-    pic: Dusty_Woods.jpg
-
   - name: Brendan Crowe
     role: phd
     office: ECES 111
     email: brendan.crowe@colorado.edu
     website: https://brendanjcrowe.github.io
     pic: Brendan_Crowe.jpg
+
+  - name: Kali Hamilton
+    role: phd
+    office: ECES 111
+    email: kali.hamilton@colorado.edu
+    website:
+    pic: Kali_Hamilton.jpg
+
+  - name: Kristen Such
+    doctor: true
+    role: alumni
+    now: a ML Scientist at PickNik Robotics 
+
+  - name: Dusty Woods
+    role: alumni
+    doctor: false
+
+  - name: Miles Mena
+    doctor: false
+    role: alumni
+    now: 
 
   - name: Alec Reed
     doctor: true
